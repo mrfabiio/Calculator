@@ -1,0 +1,81 @@
+
+
+body{
+    background-color:white;
+}
+
+.section, .tela{
+    padding: 230px 25px 70px 25px;
+    width: 300px;
+    margin: 150px 0 0 650px;
+    background-color:black;
+    border-radius: 40px;
+    text-align: center;
+    background-image: url(iphone.jpg);
+    background-repeat: no-repeat;
+    background-position: center top 30px;
+    background-size: 340px;
+}
+#limpar, #inverter, #operares{
+    padding: 3px;
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+    border-radius: 40px;
+    background-color: #A5AAA3;
+    text-align: center;
+    outline-style: none;   
+    color: #333;
+}
+
+#operadiv, #operamult, #operasub, #operasom,#operaigua{
+    padding: 3px;
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+    border-radius: 40px;
+    background-color: orange;
+    outline-style: none;
+    color: white;
+    text-align: center;
+    outline-style: none; 
+}
+
+#tecla0{
+    padding: 3px 118px 3px 28px;    
+    margin-top: 8px;
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+    border-radius: 40px;
+    background-color: #333;
+    float: left;
+    text-align: center;
+    border-color:#333;
+    outline-style: none;  
+    color: white;
+
+}
+
+#tecla1,#tecla2, #tecla3, #tecla4,#tecla5,
+ #tecla6, #tecla7, #tecla8, #tecla9, #decimal{
+    padding: 3px;
+    margin-top: 8px;
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+    border-radius: 40px;
+    background-color: #333;
+    text-align: center;
+    border-color:#333;
+    font-family: sans-serif;
+    outline-style: none;  
+    color: white;
+}
+
+#resul{
+    color: white;
+    text-align: right;
+    font-size: 35px;
+}
+
