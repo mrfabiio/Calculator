@@ -104,3 +104,10 @@ const mapearTeclado = (evento) => {
     if(teclaPermitida()) document.getElementById(mapaTeclado[tecla]).click()    
 }
 document.addEventListener('keydown',mapearTeclado)
+
+
+
+
+
+
+
